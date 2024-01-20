@@ -2,7 +2,7 @@ import OpenAI from 'openai';
 import { OpenAIStream, StreamingTextResponse } from 'ai';
 
 const openai = new OpenAI({
-    apiKey: "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",
+    apiKey: "Enter Your Key",
 });
 
 export async function POST(req: Request) {
